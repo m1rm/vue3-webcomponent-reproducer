@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="height: 100px; margin-bottom: 16px; background: red;">
+    <div style="height: 42px; margin-bottom: 16px; background: crimson;">
       <button @click="store.addOne">
         Click me {{ store.getCount }}
       </button>
@@ -9,6 +9,6 @@
 </template>
 
 <script setup>
-import testStore from '../store/testStore.js'
+import testStore from '../stores/testStore.js'
 const store = testStore()
 </script>
