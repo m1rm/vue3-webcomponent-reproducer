@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# Vue + Vite + Pinia Webcomponent Showcases
+This project showcases the usage of webcomponents generated from Vue3
+components using Vue's defineCustomElement function.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+After setup and starting the local dev server, you will see three times two colored 
+divs with a button. The button gets the displayed value from a pinia store and alters
+it via a store action (+1 per click).
 
-## Recommended IDE Setup
+Only the last pair of components has a separated state, which is achieved by passing a
+unique ID to the store upon instantiation in the vue component (separateStoresTestButton.vue).
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Setup
+- Run `npm install` to install dependencies
+- Run `npm run dev` to start the local dev server and see the examples in action
