@@ -1,5 +1,5 @@
 import { createApp, defineCustomElement } from 'vue'
-import {createPinia} from 'pinia'
+import { createPinia } from 'pinia'
 import App from './App.vue'
 
 import TestButton from './components/testButton.ce.vue'
