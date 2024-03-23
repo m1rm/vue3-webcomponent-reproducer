@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import testStore from "../store/testStore.js";
+import testStore from '../store/testStore.js'
 
 const store = testStore()
 </script>
