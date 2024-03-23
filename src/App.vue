@@ -6,4 +6,6 @@
   <test-two></test-two>
   <test-unique></test-unique>
   <test-unique></test-unique>
+  <test-provideinject></test-provideinject>
+  <test-provideinject></test-provideinject>
 </template>
