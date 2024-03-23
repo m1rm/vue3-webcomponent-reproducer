@@ -1,8 +1,5 @@
 <template>
   <h1>Vue + Vite + Pinia</h1>
-  <TestButton />
+  <test-button></test-button>
+  <test-button></test-button>
 </template>
-
-<script setup>
-import TestButton from './components/testButton.vue'
-</script>
